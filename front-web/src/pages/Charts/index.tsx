@@ -19,7 +19,7 @@ type PieChartData = {
         labels: [],
         series: []
     }
-    const BASE_URL = 'http://localhost:8080'
+    const BASE_URL = 'https://sds1-leorezio.herokuapp.com';
 const Charts = () => {
     const [barChartData, serBarChartData] = useState<BarChartData[]>([]);
     const [platformData, setPlatformData] = useState<PieChartData>(initialPieData);
